@@ -1,0 +1,37 @@
+body {
+    font-family: Arial
+}
+
+h1 {
+    color: #333
+}
+
+#producto {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+}
+#titulo_productos{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.subtituloProducts{
+    text-align: center;
+    font-size: large;
+}
+.lista_productos{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.lista_productos article{
+    flex: 1;
+}
+img{
+    width: 50px;
+    height: 85px;
+}
